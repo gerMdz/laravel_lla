@@ -18,3 +18,4 @@ yarn-error.log
 /.idea
 /.vscode
 /storage/database.sqlite
+/storage/data_base.sqlite
