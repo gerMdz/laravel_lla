@@ -15,6 +15,7 @@ use App\Http\Controllers\CursoController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::view('/bienvenida', 'bienvenida');
 
 Route::get('/', HomeController::class );
 

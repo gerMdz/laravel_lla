@@ -6,3 +6,21 @@ Curso de laravel 10 en youtube
 
 #### Borrar tablas 
 php artisan migrate:rollback
+
+#### Seeder
+
+```bash
+php artisan make:seeder NameModelSeeder
+
+php artisan migrate:fresh --seed
+# Si solo queremos correr los seeders
+
+php artisan db:seed 
+```
+
+#### Factory
+
+```bash
+php artisan make:factory NameModelFactory --model=NameModel
+ 
+```

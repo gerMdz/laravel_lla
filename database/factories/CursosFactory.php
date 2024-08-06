@@ -15,8 +15,9 @@ class CursosFactory extends Factory
         return [
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
-            'nombre' => $this->faker->word(),
-            'description' => $this->faker->text(),
+            'category' => ucfirst($this->faker->randomElement(['Framework', 'Librería', 'Vanilla'])),
+            'nombre' => ucfirst($this->faker->word()),
+            'description' => ucfirst($this->faker->paragraph()),
         ];
     }
 }
