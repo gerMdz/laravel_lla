@@ -2,7 +2,7 @@ Curso de laravel 10 en youtube
 
 [Completo](https://www.youtube.com/watch?v=3e1IsZJuYAw&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-SvF)
 
-[Cap16](https://www.youtube.com/watch?v=bisZbFOB_Io&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-SvF&index=17)
+[Cap17](https://www.youtube.com/watch?v=oBxfBlV_2sU&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-SvF&index=19)
 
 #### Borrar tablas 
 php artisan migrate:rollback
